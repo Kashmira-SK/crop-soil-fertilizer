@@ -1,0 +1,24 @@
+Feature,Importance
+numeric__Temparature,0.15938658402268033
+numeric__Humidity,0.15675465349280396
+numeric__Moisture,0.1460933384880311
+numeric__Nitrogen,0.09305003747741618
+numeric__NPK_Imbalance,0.08801231520993655
+numeric__Phosphorous,0.08638813681095772
+numeric__Potassium,0.055822415058375124
+categorical__Crop Type_Maize,0.0188571262148127
+categorical__Soil Type_Black,0.018364319622475284
+categorical__Soil Type_Sandy,0.017307170618956074
+categorical__Soil Type_Loamy,0.017107549431549657
+categorical__Soil Type_Red,0.016353861840667817
+categorical__Crop Type_Millets,0.01595837059226566
+categorical__Crop Type_Cotton,0.015451370699684865
+categorical__Crop Type_Sugarcane,0.013871987468092074
+categorical__Crop Type_Oil seeds,0.013321562385078726
+categorical__Crop Type_Pulses,0.012535649991978719
+categorical__Crop Type_Ground Nuts,0.012369146039483019
+categorical__Crop Type_Tobacco,0.01184606608587328
+categorical__Crop Type_Barley,0.011131056268570751
+categorical__Crop Type_Wheat,0.010832261696384304
+categorical__Crop Type_Paddy,0.00867564084694008
+categorical__Soil Type_Clayey,0.0005093796369860894
