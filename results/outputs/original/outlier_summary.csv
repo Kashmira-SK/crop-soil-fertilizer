@@ -1,0 +1,7 @@
+Feature,Lower,Upper,Outliers
+Temparature,17.489999999999995,43.09,0
+Humidity,36.07375000000001,82.40375,0
+Moisture,5.4275000000000055,81.3475,0
+Nitrogen,-16.5,51.5,0
+Potassium,-7.5,12.5,732
+Phosphorous,-25.0,63.0,0

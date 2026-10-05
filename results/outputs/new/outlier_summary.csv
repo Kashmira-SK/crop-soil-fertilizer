@@ -1,0 +1,7 @@
+Feature,Lower,Upper,Outliers
+Nitrogen,-25.0,215.0,0
+Phosphorus,2.5,102.5,0
+Potassium,-12.5,127.5,395
+pH,4.5,8.5,0
+Rainfall,0.0,1600.0,7
+Temperature,5.0,45.0,0
