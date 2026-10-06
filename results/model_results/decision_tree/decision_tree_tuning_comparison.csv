@@ -1,5 +1,5 @@
-Dataset,Variant,Train_Accuracy,Test_Accuracy,Precision_Weighted,Recall_Weighted,F1_Weighted,F1_Macro,CV_Best_Macro_F1,Best_Params
-Original,Default,1.0,0.14625,0.14632256146339356,0.14625,0.14623979079862237,0.14604216492893873,,Default parameters
-New,Default,0.9994459833795014,0.9324473975636767,0.9337090636334416,0.9324473975636767,0.9326430794362344,0.8368385449776474,,Default parameters
-Original,Tuned,0.75828125,0.145,0.14393395586408572,0.145,0.14416738321358877,0.14424160514105583,0.1441320757009835,"{'class_weight': None, 'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 1}"
-New,Tuned,0.9994459833795014,0.9324473975636767,0.9337090636334416,0.9324473975636767,0.9326430794362344,0.8368385449776474,0.833592587791081,"{'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1}"
+Dataset,Variant,Train_Accuracy,Test_Accuracy,Precision_Weighted,Recall_Weighted,F1_Weighted,F1_Macro,Candidate_Configurations,Selection_Metric,Best_CV_Macro_F1,Best_Params
+Original,Reference,1.0,0.14625,0.14632256146339356,0.14625,0.14623979079862237,0.14604216492893873,1,Reference model,,Reference configuration
+New,Reference,0.9994459833795014,0.9324473975636767,0.9337090636334416,0.9324473975636767,0.9326430794362344,0.8368385449776474,1,Reference model,,Reference configuration
+Original,Tuned,0.75828125,0.145,0.14393395586408572,0.145,0.14416738321358877,0.14424160514105583,24,Macro F1,0.1441320757009835,"{'class_weight': None, 'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 1}"
+New,Tuned,0.9994459833795014,0.9324473975636767,0.9337090636334416,0.9324473975636767,0.9326430794362344,0.8368385449776474,24,Macro F1,0.833592587791081,"{'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1}"

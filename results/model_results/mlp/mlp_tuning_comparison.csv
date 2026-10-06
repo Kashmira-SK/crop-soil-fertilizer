@@ -1,0 +1,5 @@
+Dataset,Variant,Train_Accuracy,Test_Accuracy,Precision_Weighted,Recall_Weighted,F1_Weighted,F1_Macro,Candidate_Configurations,Selection_Metric,Best_CV_Macro_F1,Best_Params
+Original,Reference,0.2365625,0.13625,0.1344825295110707,0.13625,0.13418848938462902,0.13378273141455538,1,Reference model,,Reference configuration
+New,Reference,0.4581717451523546,0.43853820598006643,0.3894571419747805,0.43853820598006643,0.4010023387658741,0.21005148944635207,1,Reference model,,Reference configuration
+Original,Tuned,0.2371875,0.1375,0.13495199039828035,0.1375,0.1350677041275185,0.13456381042200632,12,Macro F1,0.14474553034120732,"{'alpha': 0.001, 'hidden_layer_sizes': (100,), 'learning_rate_init': 0.001}"
+New,Tuned,0.9761772853185595,0.9258028792912514,0.9282954214305906,0.9258028792912514,0.9254572619077969,0.9253601632952475,12,Macro F1,0.8413127498821458,"{'alpha': 0.001, 'hidden_layer_sizes': (100, 50), 'learning_rate_init': 0.01}"

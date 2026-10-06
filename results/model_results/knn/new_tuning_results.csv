@@ -1,0 +1,17 @@
+params,mean_train_score,mean_test_score,std_test_score,rank_test_score
+"{'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'distance'}",0.9980526836496303,0.8195161075983988,0.046831993821769724,1
+"{'metric': 'manhattan', 'n_neighbors': 5, 'weights': 'distance'}",0.9980526836496303,0.8036158029469187,0.04187580918083503,2
+"{'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'distance'}",0.9980526836496303,0.7759017916366163,0.04812596110278246,3
+"{'metric': 'manhattan', 'n_neighbors': 9, 'weights': 'distance'}",0.9980526836496303,0.7742153092514572,0.040699112797020806,4
+"{'metric': 'euclidean', 'n_neighbors': 5, 'weights': 'distance'}",0.9980526836496303,0.7678685933404876,0.04580912829771445,5
+"{'metric': 'manhattan', 'n_neighbors': 15, 'weights': 'distance'}",0.9980526836496303,0.7554039708644125,0.04861826085830389,6
+"{'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'uniform'}",0.9292337396504555,0.7477960094814995,0.050834600732903815,7
+"{'metric': 'euclidean', 'n_neighbors': 9, 'weights': 'distance'}",0.9980526836496303,0.7435759468375593,0.04366117853051797,8
+"{'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'uniform'}",0.9163692799326728,0.7232144705246853,0.05379950985141635,9
+"{'metric': 'euclidean', 'n_neighbors': 15, 'weights': 'distance'}",0.9980526836496303,0.6953319664934123,0.042597898051732974,10
+"{'metric': 'manhattan', 'n_neighbors': 5, 'weights': 'uniform'}",0.8171101771486711,0.6500417496626734,0.027199216472684487,11
+"{'metric': 'euclidean', 'n_neighbors': 5, 'weights': 'uniform'}",0.7897444484190509,0.5960342310380576,0.03239186475948087,12
+"{'metric': 'manhattan', 'n_neighbors': 9, 'weights': 'uniform'}",0.6245017445237453,0.46790894715947895,0.026774063839376184,13
+"{'metric': 'euclidean', 'n_neighbors': 9, 'weights': 'uniform'}",0.5959629121137511,0.4558001290091818,0.01949472116960564,14
+"{'metric': 'manhattan', 'n_neighbors': 15, 'weights': 'uniform'}",0.4692366290914155,0.3841948511655953,0.018551319182408803,15
+"{'metric': 'euclidean', 'n_neighbors': 15, 'weights': 'uniform'}",0.46329233594485497,0.37921354721397854,0.023055678566692966,16

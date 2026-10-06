@@ -1,0 +1,5 @@
+Dataset,Variant,Train_Accuracy,Test_Accuracy,Precision_Weighted,Recall_Weighted,F1_Weighted,F1_Macro,Candidate_Configurations,Selection_Metric,Best_CV_Macro_F1,Best_Params
+Original,Reference,0.4015625,0.140625,0.13816232941367645,0.140625,0.1357088755033181,0.13549039446719746,1,Reference model,,Reference configuration
+New,Reference,0.8944598337950138,0.7043189368770764,0.7076001187844095,0.7043189368770764,0.7029970982637506,0.6618626782579621,1,Reference model,,Reference configuration
+Original,Tuned,1.0,0.138125,0.1383969131155359,0.138125,0.1381272935322634,0.1380343785098426,16,Macro F1,0.15139029712053004,"{'metric': 'manhattan', 'n_neighbors': 5, 'weights': 'distance'}"
+New,Tuned,0.9994459833795014,0.867109634551495,0.869175135010482,0.867109634551495,0.8666268342414499,0.8376068937367099,16,Macro F1,0.8195161075983988,"{'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'distance'}"

@@ -1,0 +1,5 @@
+Dataset,Variant,Train_Accuracy,Test_Accuracy,Precision_Weighted,Recall_Weighted,F1_Weighted,F1_Macro,Candidate_Configurations,Selection_Metric,Best_CV_Macro_F1,Best_Params
+Original,Reference,1.0,0.135625,0.13538983758343398,0.135625,0.13531902991881548,0.13534453611925745,1,Reference model,,Reference configuration
+New,Reference,0.9994459833795014,0.8372093023255814,0.8408446079629807,0.8372093023255814,0.8375306281111021,0.7686957622388848,1,Reference model,,Reference configuration
+Original,Tuned,0.99984375,0.148125,0.14845170382424044,0.148125,0.1477502799183304,0.1476512226954021,16,Macro F1,0.15328716062450015,"{'class_weight': None, 'max_depth': 20, 'min_samples_leaf': 2, 'n_estimators': 200}"
+New,Tuned,0.9994459833795014,0.8294573643410853,0.8322231120559446,0.8294573643410853,0.8292782575755718,0.7987674092739625,16,Macro F1,0.7737137417350229,"{'class_weight': None, 'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 200}"

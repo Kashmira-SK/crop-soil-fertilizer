@@ -1,0 +1,17 @@
+params,mean_train_score,mean_test_score,std_test_score,rank_test_score
+"{'class_weight': None, 'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 200}",0.9981258335699742,0.7737137417350229,0.03736835521106636,1
+"{'class_weight': None, 'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 300}",0.998162433014722,0.7706528266413883,0.037908844167401166,2
+"{'class_weight': None, 'max_depth': 20, 'min_samples_leaf': 1, 'n_estimators': 300}",0.9981989973654674,0.7695748963142417,0.0408133427905474,3
+"{'class_weight': None, 'max_depth': 20, 'min_samples_leaf': 1, 'n_estimators': 200}",0.9981257915542731,0.7691723392479091,0.037376171804814874,4
+"{'class_weight': None, 'max_depth': 20, 'min_samples_leaf': 2, 'n_estimators': 200}",0.9487893249309286,0.6763402777139177,0.05673476543204262,5
+"{'class_weight': None, 'max_depth': None, 'min_samples_leaf': 2, 'n_estimators': 200}",0.9486393989545467,0.6732160454475307,0.04508337097280909,6
+"{'class_weight': None, 'max_depth': 20, 'min_samples_leaf': 2, 'n_estimators': 300}",0.9504617830378923,0.6635098196005075,0.04110331232285227,7
+"{'class_weight': None, 'max_depth': None, 'min_samples_leaf': 2, 'n_estimators': 300}",0.9508492943860881,0.6612112587166277,0.03735246031450553,8
+"{'class_weight': 'balanced', 'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 300}",0.8738420985209089,0.6610750576982711,0.04164650412577211,9
+"{'class_weight': 'balanced', 'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 200}",0.8713808967082386,0.6609657474214145,0.03816409727014389,10
+"{'class_weight': 'balanced', 'max_depth': 20, 'min_samples_leaf': 1, 'n_estimators': 200}",0.8631748929097146,0.6595835232676226,0.03816844367238608,11
+"{'class_weight': 'balanced', 'max_depth': 20, 'min_samples_leaf': 1, 'n_estimators': 300}",0.8665158415844502,0.6588387278283299,0.039959838560124646,12
+"{'class_weight': 'balanced', 'max_depth': None, 'min_samples_leaf': 2, 'n_estimators': 300}",0.7070406794058002,0.5781470596483871,0.042996209437309106,13
+"{'class_weight': 'balanced', 'max_depth': None, 'min_samples_leaf': 2, 'n_estimators': 200}",0.7052474607507087,0.5774767548039133,0.04210904298901485,14
+"{'class_weight': 'balanced', 'max_depth': 20, 'min_samples_leaf': 2, 'n_estimators': 200}",0.7043478756094019,0.5754822482392885,0.0420098911552295,15
+"{'class_weight': 'balanced', 'max_depth': 20, 'min_samples_leaf': 2, 'n_estimators': 300}",0.7042351179986036,0.5749890309242779,0.04361686559277505,16
